@@ -13,11 +13,6 @@ export default new Router({
       // component: () => import("./views/Home.vue")
     },
     {
-      path: "/about",
-      name: "about",
-      component: () => import("./views/About.vue")
-    },
-    {
       path: "/login",
       component: () => import("@/views/login/index"),
       hidden: true
